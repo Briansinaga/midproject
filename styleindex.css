@@ -1,55 +1,110 @@
-body {
-    font-family: 'Open Sans', 'Roboto', 'sans-serif';
-    font-size: 15px;
-    background: white;
-}
 
-#main-nav .navbar {
-    padding: 22px 7px;
-    font-weight: bold;
-    font-size: 13px;
-    margin-left: 150px;
+*{
+    margin: 0;
+    padding: 0;
 }
-
-.navbar {
-    background-color: #fff;
-    overflow: hidden;
-}
-
-.navbar a {
-    float: left;
-    display: block;
-    color: #777;
-    text-align: center;
-    padding: 5px 10px;
-    text-decoration: none;
-}
-
-.navbar a:hover {
-    color:  #6EC139;
-    background-color: transparent;
-}
-
-.navbar a:target {
-    color: #6EC139;
-}
-
-#logo {
-    vertical-align: middle;
-    float: right;
-    margin-right: 100px;
-    margin-top: 10px;
-}
-
-#logo-bahasa {
-    float: right;
-    width: 7%;
-    height: 40px;
-    margin-right: 0;
-    margin-top: 0;
-}
-
-img {
+.container{
+    border-bottom: 1px solid gray;
+    position: fixed;
+    background-color: white;
     width: 100%;
-    height: auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    height: 70px;
+    margin-left: 200px;
+}
+.navbar a{
+    text-decoration: none;
+    color: gray;
+}
+.navbar img{
+    width: 150px;
+}
+.navbar a:hover{
+    color: rgb(113, 180, 12);
+}
+.konten{
+    width: 100%;
+    height: 500px;
+}
+.konten img{
+    width: 100%;
+    margin-top: 50px;
+}
+.icon{
+    display: flex;
+    margin-top: 180px;
+    justify-content: space-around;
+    width: 80%;
+    margin-left: 100px;
+}
+.icon img{
+    width: 35px;
+    height: 35px;
+}
+.icon1 a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+    padding-left: 10px;
+}
+.icon a:hover {
+    color: rgb(113, 180, 12);
+    background-color: rgb(113, 180, 12);
+}
+.main-content {
+    padding: 40px;
+}
+.container1 {
+    max-width: 1000px;
+}
+.row {
+    clear: both;
+}
+.col-sm-4 {
+    width: 33.33333333%;
+    float: left;
+}
+.widget {
+    margin-bottom: 25px;
+}
+.widget-content ul li a a:hover {
+    color: rgb(113, 180, 12);
+}
+.widget .widget-title {
+    font-weight: 700;
+    font-size: 21px;
+    padding: 0px 0px 0px 20px;
+    margin: 0px;
+    background-image: url(image-widget-title.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: 13px auto;
+}
+.widget .widget-content {
+    padding: 15px 20px;
+}
+.widget .widget-content ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.widget.widget-content ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.widget .widget-content ul li a {
+    color: #000;
+    transition: 0.3s;
+    position: relative;
+}
+.widget .widget-content ul li .date {
+    display: block;
+    font-size: 10px;
+    color: #555;
+    margin-top: 3px;
 }
