@@ -3,11 +3,11 @@
     margin: 0;
     padding: 0;
 }
-.container{
-    border-bottom: 1px solid gray;
+.container1{
     position: fixed;
     background-color: white;
     width: 100%;
+    z-index: 2;
 }
 .navbar{
     display: flex;
@@ -25,6 +25,9 @@
     width: 150px;
 }
 .navbar a:hover{
+    color: rgb(113, 180, 12);   
+}
+.navbar a:focus{
     color: rgb(113, 180, 12);
 }
 .konten{
@@ -33,78 +36,144 @@
 }
 .konten img{
     width: 100%;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 .icon{
     display: flex;
-    margin-top: 180px;
-    justify-content: space-around;
+    margin-top: 250px;
     width: 80%;
-    margin-left: 100px;
+    margin-left: 250px;
+}
+.icon a {
+    text-decoration: none;
+    color: #000;
 }
 .icon img{
     width: 35px;
     height: 35px;
-}
-.icon1 a{
-    text-decoration: none;
-    font-family: sans-serif;
-    color: black;
-    padding-left: 10px;
+    padding-left: 5px;
 }
 .icon a:hover {
     color: rgb(113, 180, 12);
-    background-color: rgb(113, 180, 12);
 }
-.main-content {
-    padding: 40px;
+.body-content {
+    width: 70%;
+    margin: 0 auto;
+    font-family: sans-serif;
 }
-.container1 {
-    max-width: 1000px;
+.container-artikel {
+    margin-top: 50px;
+    display: flex;
 }
-.row {
-    clear: both;
-}
-.col-sm-4 {
-    width: 33.33333333%;
+.container div {
+    height: auto;
+    margin: 0 10px;
     float: left;
 }
-.widget {
-    margin-bottom: 25px;
+.container .artikel1 {
+    width: 60%;
 }
-.widget-content ul li a a:hover {
-    color: rgb(113, 180, 12);
+.container .artikel2 {
+    width: 40%;
+    margin-left: 10px;
 }
-.widget .widget-title {
-    font-weight: 700;
-    font-size: 21px;
-    padding: 0px 0px 0px 20px;
-    margin: 0px;
-    background-image: url(image-widget-title.png);
-    background-repeat: no-repeat;
-    background-position: 0px 0px;
-    background-size: 13px auto;
+.artikel1 ul{
+    list-style-type: none;
 }
-.widget .widget-content {
-    padding: 15px 20px;
+.artikel1 li {
+    text-decoration: none;
 }
-.widget .widget-content ul {
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
-}
-.widget.widget-content ul li {
-    font-size: 16px;
-    margin-bottom: 10px;
-}
-.widget .widget-content ul li a {
+.artikel1 li a {
+    text-decoration: none;
     color: #000;
-    transition: 0.3s;
-    position: relative;
 }
-.widget .widget-content ul li .date {
+.artikel1 h2 {
+    padding-bottom: 20px;
+}
+.artikel1 a:hover{
+    color: rgb(113, 180, 12);
+    transition: 0.3s;
+}
+.gambar-berita {
+    display: flex;
+    width: 100px;
+    height: 200px;
+}
+.text-artikel2 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    text-align: center;
+    font-family: sans-serif;
+    margin-right: 30px;
+}
+.artikel2 h2 {
+    padding-bottom: 20px;
+}
+.date {
     display: block;
     font-size: 10px;
     color: #555;
-    margin-top: 3px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.more {
+    color: black;
+    transition: 0.3s;
+    background-color: #f0f643;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 6px 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+.more a:hover {
+    background-color: #000;
+    color: white;
+    padding: 7px 7px;
+    border-radius: 5px;
+}
+.more a {
+    text-decoration: none;
+}
+.imore {
+    padding-top: 150px;
+    padding-bottom: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+.container3 {
+    text-align: center;
+}
+.list-inline {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.list-inline li {
+    display: inline;
+    margin-right: 0 10px;
+}
+.list-inline li a {
+    color: #000;
+    font-size: 15px;
+}
+.list-inline li:last-child {
+    margin-right: 0;
+}
+.container4 {
+    height: 300px;
+    padding: 20px;
+}
+footer {
+    background-color: #094437;
+    color: white;
+    padding: 20px 0;
+}
+.footer-content {
+    margin: 0 auto;
 }
