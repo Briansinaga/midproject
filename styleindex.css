@@ -161,13 +161,11 @@
 .list-inline li a {
     color: #000;
     font-size: 15px;
-}
-.list-inline li:last-child {
-    margin-right: 0;
+    text-decoration: none;
 }
 .container4 {
-    height: 300px;
-    padding: 20px;
+    height: 350px;
+    padding: 10px;
 }
 footer {
     background-color: #094437;
@@ -176,4 +174,20 @@ footer {
 }
 .footer-content {
     margin: 0 auto;
+}
+.footer-title {
+    font-family: sans-serif;
+}
+.footer-content a {
+    color: #008733;
+}
+.copyright {
+    color: white;
+    font-size: 11px;
+    margin-top: -20px;
+}
+.follow {
+    display: flex;
+    float: right;
+    text-align: center;
 }

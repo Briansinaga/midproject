@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container1{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    z-index: 2;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    height: 70px;
+    margin-left: 200px;
+}
+.navbar a{
+    text-decoration: none;
+    color: gray;
+}
+.navbar img{
+    width: 150px;
+}
+.navbar a:hover{
+    color: rgb(113, 180, 12);   
+}
+.navbar a:focus{
+    color: rgb(113, 180, 12);
+}
+.biodata {
+    display: flex;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+.container-biodata {
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+h1 {
+color: black;
+}
+p {
+    color: black;  
+}
+footer {
+    background-color: #094437;
+    color: white;
+    padding: 20px 0;
+}
+.footer-content {
+    margin: 0 auto;
+}
+.footer-title {
+    font-family: sans-serif;
+}
+.footer-content a {
+    color: #008733;
+}
+.more {
+    color: black;
+    transition: 0.3s;
+    background-color: #f0f643;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 6px 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+.more a:hover {
+    background-color: #000;
+    color: white;
+    padding: 7px 7px;
+    border-radius: 5px;
+}
+.more a {
+    text-decoration: none;
+}
+.copyright {
+    color: white;
+    font-size: 11px;
+    margin-top: -20px;
+}
