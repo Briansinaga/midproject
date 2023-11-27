@@ -4,24 +4,6 @@
     <title>Contact Us Form</title>
     <link rel="icon" type="image/png" href="favicon.ico">
     <link rel="stylesheet" href="stylecontact_us.css">
-    <!-- internal JS -->
-    <script>
-          function validateForm() {
-            var fullName = document.getElementById("name").value;
-            var email = document.getElementById("email").value;
-            var username = document.getElementById("username").value;
-            var password = document.getElementById("password").value;
-            var gender = document.querySelector('input[name="Jenis Kelamin"]:checked');
-            var agama = document.getElementById("Agama").value;
-            var alamat = document.getElementById("Alamat").value;
-            var hobbies = document.querySelectorAll('input[name="Hobi"]:checked');
-
-            if (fullName === "" || email === "" || username === "" || password === "" || gender === null || agama === "" || alamat === "" || hobbies.length === 0) {
-                alert("Silakan isi semua kolom.");
-                return false;
-            }
-            return true;
-        }
     </script>
 </head>
 <body>
